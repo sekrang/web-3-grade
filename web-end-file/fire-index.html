@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>산불로 인한 산림 환경파괴</title>
+    <link href="fire-style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .nav {
+        height: 70px;
+        border-bottom: 1px solid #C4C4C4;
+        display: flex;
+        align-items: center; 
+      }
+      .nav-right-items{
+        display: flex;
+        margin-left: auto;
+      }
+      .nav-item{
+        margin-left: 10px;
+      }
+      .nav .name{
+        margin-left: 5%;
+      }
+      .nav .home{
+        margin-left: 50%;
+        position:absolute;
+      }
+
+      .title {
+        font-size: 3.5rem;
+        font-weight: bold;
+      }
+      .subtitle{
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+      .main {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 60px;
+        
+      }
+
+      .price-item{
+        width: 600px;
+        height: 550px;
+        border: 1px solid #C4C4C4;
+        margin: 20px;
+        border-radius: 4px; /*사각형 둥글게*/
+        text-align: center;
+        align-items: center;
+      }
+      .price-item1{
+        width: 600px;
+        height: 650px;
+        border: 1px solid #C4C4C4;
+        margin: 20px;
+        border-radius: 4px; /*사각형 둥글게*/
+        text-align: center;
+        align-items: center;
+      }
+
+      .prices{
+        display: flex;
+        justify-content: center;
+        
+      }
+      .prices1{
+        display: flex;
+        justify-content: center;
+        
+      }
+
+      .price-item-title{
+        font-size: 1.5rem;
+        background: rgba(0,0,0,.03);
+        height: 53px;
+        line-height: 53px;
+        border-bottom: 1px solid #C4C4C4;
+      }
+
+      .price-item-price{
+        font-size: 2.15rem;
+        font-weight: bold;
+        padding: 20px;
+      }
+      
+      .price-item-button{
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+        color: #007bff;
+        background-color: transparent;
+        background-image: none;
+        border-color: #007bff;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="name">
+        3125 한상원 3207 김수연 3719 이경태
+      </div>
+      <div class="home">
+        <a href="index.html">
+          <img src="house-solid.svg" width="12%" height="12%">
+        </a>
+      </div>
+  
+    </div>
+    <div class="main">
+      <dive class="title">
+        <center>산불 발생으로 인한 산림 파괴 예방하기</center>
+      </div>
+      <div class="subtitle">
+        아무리 애써 가꾼 산림도 산불이 나면 한순간에 잿더미로 변해 이를 다시 원상복구 하는데는 40년에서 100년이란 긴 세월에 걸쳐 막대한 노력과 비용이 투자되어야 한다. 
+      </div>
+      <div class="prices">        
+        <div class="price-item">
+          <div class="price-item-title">
+            현황
+          </div>
+          <div class="price-item-price">
+            우리나라 산불로 인한 피해 현황
+          </div>
+          <div class="price-item-detail">
+            10년간 연간 평균 1,087.2ha의 산림이 파괴되었다.<br>
+            <img src='산불 현황.png' width='100%'>
+          </div>
+        </div>
+        
+        <div class="price-item">
+          <div class="price-item-title">
+            원인
+          </div>
+          <div class="price-item-price">
+            주된 원인은 입산자로 인한 실화 
+          </div>
+          <div class="price-item-detail">
+            산림청 통계에 따르면 산불의 38%는 입산자 실화로 발생한다.
+            <img src='산불 원인1.png'>
+            <img src='산불 원인2.png'>
+            
+          </div>
+        </div>
+        
+      </div> 
+      <div class="prices1">        
+        <div class="price-item1">
+          <div class="price-item-title">
+            해결방안
+          </div>
+          <div class="price-item-price">
+            생수병 형태 변형
+          </div>
+          <div class="price-item-detail">
+            입산자가 버린 생수병이 돋보기와 같은 역할을 하여<br> 건조한 나뭇잎이나 풀을 태울 수 있다. 이 문제를 해결하기 위해 <br>기존 생수병의 형태를 변경하는 방안은 생각해보았다. <br><br>패트병에 굴곡을 주어 모이는 빛의 양을 최소화하였다.<br>실제로 실험을 해 본 결과 기존 생수병보다 굴곡이 심한 생수병이 빛을 덜 모을 수 있었다. 
+            <img src='생수병.png' width='100%'>
+          </div>
+        </div>
+       
+        <div class="price-item1">
+          <div class="price-item-title">
+            해결방안
+          </div>
+          <div class="price-item-price">
+            센서를 활용한 확산 방지
+          </div>
+          <div class="price-item-detail">
+            미국에서는 AI 기술로 산불을 감지하고 있다. 그러나 이 기술은 영상을 활용하기 때문에 한국에서는 개인정보 문제로 상용화되지 못하고 있다. <br><br> 우리는 이 문제를 해결하여 우리산림에 적용하기 위해 영상을 사용하지 않고 산불을 감지하는 기술을 생각해보았다. <br><br>우리가 만든 기구는 아두이노의 불꽃감지센서가 산불을 감지하면 뷰렛 손잡이를 돌려 물을 뿌리게 하는 구조이다.  <br>
+            
+            
+          </div>
+          <button class="price-item-button">
+            <a href="index2.html">영상보기</a>
+          </button>
+        </div>
+        
+      </div> 
+    </div>
+
+    <script src="script.js"></script>
+
+ <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+  </body>
+
+</html>

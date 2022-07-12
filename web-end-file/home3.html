@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>medical-kiosk.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="intro_bg">
+        <div class="header">
+          <div class="searchArea">
+            <form>
+              <input type="search" placeholder="search">
+              <span>검색</span>
+            </form>
+          </div>
+          <div class="home">
+            <a href="index.html">
+              <img src="house-solid.svg" width="30px" height="30px">
+            </a>
+          </div>
+          <ul class="nav">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="home2.html">DATA COLLECT</a></li>
+            <li><a href="home3.html">RNN ARGORITHM</a></li>
+            <li><a href="home4.html">PROSPECT,ADV,DADV</a></li>
+          </ul>
+        </div>
+        <div class="intro_text">
+          <h1>AI의료 키오스크,의료 인력 부족의 해결책</h1>
+          <h4 class="contents1">의료 키오스크를 이용한 의료인력 부족 문제 해결 및 장단점</h4>
+        </div>
+      </div>
+      </div>
+      <!-- intro end-->
+      <div class="main_text1">
+        <h1>RNN기술</h1>
+        <div class="contents1">손실함수를 통한 데이터 분석</div>
+        <div class="service">
+          <div class="food_photo">
+            <img src="im/RNNdata2.png">
+          </div>
+          <div class="contents2">
+              <h2>RNN기술의 원리</h2>
+              RNN(Recurrent Neural Network)의 원리는 왼쪽 그림을 보면된다. 
+              왼쪽 그림에서 x, y, h는 각각 RNN 모델에 대한 입력, 출력, 상태정보를 의미하며,
+              모델을 유닛수준으로 풀었을 때 각 RNN유닛에 이전 유닛의 상태정보(h) 가 들어옴으로써 이전 입력들에 대한 정보를 유지하게 된다.
+              즉 이전 상태 정보를 중첩한다. 왼쪽 그림에서 Xn, Yn , Zn 은 각각 RNN 유닛에 대한 입력 데이터, 출력 데이터, 상태정보를 나타낸다.
+              이 파라미터들은 각자의 가중치인 Wx, Wy, 와 곱해져 고유의 의미를 나타낸다. 
+              학습은 상기의 식으로 계산하여 예측한 y값과 실제 y값의 차이 를 이용해 손실함수(Loss Function) → (손실 함수는 실제값과 예측값의 차이(loss, cost)를 수치화해주는 함수이다. 
+              오차가 클수록 손실 함수의 값이 크고, 오차가 작을수록 손실 함수의 값이 작아진다.)를 계산하고, 
+              최적화 함수(손실함수를 줄여나가면서 학습하는 방법은 어떤 optimizer를 사용하느냐에 따라 달라진다.)를 통해
+              가중치 RNN을 이용한 동작기록 마이닝 기반의 추천 방법을 갱신함으로써 신경망을 학습시킨다.
+              <h3><a href="https://dbstndi6316.tistory.com/297"># optimizer 예시</a></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_text2">
+        <ul>
+          <li>
+            <div><h1>commercialization</h1></div>
+            <div>의료 키오스크의 상용화로 접근성, 인력보충, 편리성의 장점</div>
+            <div class="more2"><a href=" https://medigatenews.com/news/606915541">더 알아보기</a> </div>
+          </li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <div>참고문헌</div>
+        <div>
+          <a href="https://www.jecheon.go.kr/welfare/contents.do?key=767">https://www.jecheon.go.kr/welfare/contents.do?key=767</a><br>
+          <a href="http://www.dynews.co.kr/news/articleView.html?idxno=611728">http://www.dynews.co.kr/news/articleView.html?idxno=611728</a><br>
+          <a href="http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=e7d4b7ed7908eb05ffe0bdc3ef48d419&outLink=K">http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=e7d4b7ed7908eb05ffe0bdc3ef48d419&outLink=K</a><br>
+          <a href="https://idoctorcloud.com/ko/products/health-checkup-kiosk/multifunctional-health-checkup-kiosk">https://idoctorcloud.com/ko/products/health-checkup-kiosk/multifunctional-health-checkup-kiosk</a><br>
+          <a href="https://www.who.int/news-room/fact-sheets/detail/primary-health-care">https://www.who.int/news-room/fact-sheets/detail/primary-health-care</a><br>
+          <a href="https://medigatenews.com/news/606915541">https://medigatenews.com/news/606915541</a><br> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
